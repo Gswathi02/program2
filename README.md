@@ -1,4 +1,3 @@
-# program2
 n = input("Enter Number to calculate sum")
 n = int (n)
 sum = 0
