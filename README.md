@@ -1,5 +1,7 @@
 # program2
-Student = {"Name": "John", "Age": 10, "Result":"Passed","Rollno":"009001"}  
-print(type(Student))  
-print("printing Employee data .... ")  
-print(Student)   
+n = input("Enter Number to calculate sum")
+n = int (n)
+sum = 0
+for num in range(0, n+1, 1):
+    sum = sum+num
+print("SUM of first ", n, "numbers is: ", sum )
